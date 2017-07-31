@@ -8,37 +8,104 @@
 \maketitle
 \section{Terminal}
 \subsection{¿Por qué usar la terminar?}
-%equipo1		
+
+
+%equipo1
 \subsection{Comandos basicos}
-%equipo2		
-\subsection{Permisos}
+\begin{itemize}
+\item cd
+  \begin {itemize}
+  \item Change directory - Para cambiar el directorio
+    \end{itemize}
+\item ls
+  \begin{itemize}
+  \item List - Muestra todo lo que esta dentro del directorio donde estas posisionado
+  \end{itemize}
+\item mkdir
+  \begin{itemize}
+  \item Make directory - Crear un directorio
+  \end{itemize}
+\item rm
+  \begin{itemize}
+  \item Remove - Quitar un archivo o directorio
+  \end{itemize}
+\end{itemize}
+
+
+
+%equipo2
+  \subsection{Permisos}
+  \begin{itemize}
+    
+  \item r
+    \begin{itemize}
+    \item Read - Permiso para leer un archivo y ver que hay adentro de un directorio (Y permiso para remover un directorio)
+    \end {itemize}
+    
+  \item w
+    \begin {itemize}
+    \item Write - Permiso para escribir dentro de un archivo y modificar lo que hay adentro de un directorio
+    \end {itemize}
+    
+  \item x
+    \begin {itemize}
+    \item Execute - Permiso para ejecutar un archivo y abri un directorio
+    \end {itemize}
+  \end {itemize}
+
+  
 %equipo3
 \section{Emacs}
 \subsection{¿Qué es y por qué usar emacs?}
+Es el editor de los dioses que permite manipular el texto de forma similar a un lenguaje de marcado, organizandolo en secciones, ademas de que su flexibilidad permite realizar distintas funciones a traves de paqueterias como el dibujo de graficas y edición de textos de caracter científico o profesional.
 %equipo4
 \subsection{Comandos básicos}
+
 %equipo5
 \section{Git}
 \subsection{¿Qué es git y por qué usarlo?}
-%equipo6
+git es una herramienta quue funciona para eloaborar trabajos en equipo eficientes, ya que sirve para administrar muchos archivos y seleccionar que te funciona y que no.
+%equipo6 git
 \subsection{Comandos básicos}
+
 %equipo7
 \subsection{GitHub}
+ sirve para subir proyectos a la nube, tambien para hacer colaboraciones de manera remota sin necesidad de USB pero teniendo siempre  acceso a internet,
 %equipo8		
-\subsection{Inicialiar un resposotorio remoto}
+\subsection{Inicializar un resposotorio remoto}
+
+Primero entramos a la pagina del repositorio que queremos tener en nuestra computadora, inicializar github en la terminal GIT INIT, despues con la opcion CLONE OR DOWLAND copiamos el URL dado por Github y en la terminal usando el comando GIT REMOTE ADD ORIGIN URL podemos enlazarlo con nuestra computadora. Finalmente con el comando GIT PULL bajamos el contenido del repositorio.
+
 %equipo9		
 \subsection{Colaborar en repositorio}
+La herramienta GIT permite colaboración por medio de un control de versiones en la nube, por lo que no requiere tanto intercambio físico ni control de versiones adicional.
+
+Pasos
+
 %equipo10		
 \subsection{Pull Request}
+Sirve para tener los mismos archivos que otro repositorio y poder modificarlo
+1. Copiar el repositorio de manera manual a tu cuenta de github
+2. Poner git remote
+3. Poner git pull
 %equipo11
 \section{Lenguajes de Marcado}
+Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.
+
+
 \subsection{¿Qué son para que se usan?}
+para describir algo 
+
 %equipo12		
 \subsection{XML}
+Es un lengueje de marcado que se creo para el metalenguaje SGML, en donde se puede organizar la informacion jerarquicamente.
+En este se puede ir especificando la estructura de un documento y para esto se iran añadiendo una a una las partes que lo integraran.
 %equipo13
 \subsection{¿Qué es HTML y para que se usa?}
+HTMl es un lenguaje de marcado para crear páginas web
 %equipo14		
-\subsection{Etiquetas Básicas}
+es\subsection{Etiquetas Básicas}
+
 %equipo15
 \section{Latex}
 \subsection{¿Qué es Latex y por qué usarlo?}
@@ -55,6 +122,29 @@ La estructura básica de latex es:
 \item Preámbulo
 \item Cuerpo
 \end{enumerate}
+es un sistema de composición de textos, orientado a la creación de documentos escritos que presenten una alta calidad tipográfica. Por sus características y posibilidades, es usado de forma especialmente intensa en la generación de artículos y libros científicos que incluyen, entre otros elementos, expresiones matemáticas.
 
+
+Funciona y es estable y multiplataforma.
+
+    Tan simple como eso, LaTeX no se cuelga, el formato de los archivos es mucho más estable que en otros procesadores y cualquier cambio es primero profundamente meditado y después profusamente documentado, existen implementaciones para distintas plataformas y en todas el resultado es exactamente el mismo (si se tienen los mismos estilos y tipos, claro).
+Alta calidad en la edición de ecuaciones.
+
+    Esta es siempre la razón última por la que un usuario científico se inclina hacia LaTeX. Este procesador ajusta los tamaños de paréntesis, integrales, subíndices y superíndices, alinea los elementos de las matrices, construye cajas, etc.
+LaTeX permite redactar fácilmente documentos estructurados.
+
+    A través de distintas clases de documento y de su conjunto de macros, LaTeX posibilita escribir textos dividiéndolos en capítulos, secciones, subsecciones, controlando en todo momento la numeración y las referencias cruzadas. Construye índices de contenidos, tablas o figuras. Ajusta los tamaños y tipos de letras según la parte del documento en que se hallen.
+Facilidad en la construcción de macros y órdenes.
+
+    A poco de comenzar a usar este procesador, el usuario se encuentra definiendo o redefiniendo órdenes para que éstas se ajusten a sus preferencias personales. Por ejemplo, es posible que una determinada expresión aparezca repetidas veces en el texto. Nada mas fácil que definir una orden que reemplace a todo un bloque. O bien, es posible que no guste la forma en que LaTeX numera las páginas. Una redefinición al principio del documento permite cambiar esto.
+Se escribe en ASCII.
+
+    Esto, que al principio puede parecer un inconveniente (ya que implica teclear mucho más) se torna en ventaja al cabo del tiempo. Por un lado permite incrementar la velocidad de escritura (pues no hay que andar utilizando ratón o menús), por otro facilita el uso de cualquier editor de texto (no contiene caracteres de control) y permite su transmisión por correo electrónico (puede escribirse en ASCII de 7 bits). Esto hace que muchas revistas científicas admitan artículos escritos en LaTeX, enviados por e-mail. Ellos lo procesan en el lugar de destino, hacen los cambios necesarios y lo imprimen.
+Es gratis
+
+    Pues eso. Para ver porqué véase la sección ¿Porqué TeX es gratis?. A pesar de ello, existen también implementaciones comerciales.
+
+%equipo16
+\subsection{Estructura básica de un documento en Latex}rigin
 %equipo17
 \end{document}
